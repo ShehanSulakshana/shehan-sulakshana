@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shehan Sulakshana — Builder × Breaker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="static/styles.css">
+
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Shehan Sulakshana</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-profile-container">
+                <img src="https://avatars.githubusercontent.com/u/163650030?v=4" alt="Shehan Sulakshana" class="avatar">
+                <div class="status-badge">
+                    <i data-lucide="sparkles" style="width:18px;height:18px"></i>
+                    <span>Learning & Building</span>
+                </div>
+            </div>
+            <div class="hero-content-container">
+
+                <h1>Securing Systems.</h1>
+                <h2>Developing Apps.</h2>
+                <p class="hero-subtitle">Cyber Security student & Flutter developer</p>
+                <p class="hero-description">Pursuing BSc Information Technology (Cyber Security major)<br>
+                    Open University of Sri Lanka</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work
+                        <i data-lucide="arrow-right" style="width:18px;height:18px"></i>
+                    </a>
+                    <a href="#about" class="btn btn-outline">About Me</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <div class="section-label">About</div>
+            <h2 class="section-title">My Skillset</h2>
+            <p class="section-description">I'm studying cyber security while building mobile applications.
+                I focus on creating secure, well-designed software solutions.</p>
+        </div>
+        <div class="cards-grid">
+            <div class="glass-card">
+                <div class="card-icon"><i data-lucide="shield" style="width:30px;height:30px;color:white"></i></div>
+                <h3>Cyber Security</h3>
+                <p>Learning ethical hacking, penetration testing, and secure system design</p>
+            </div>
+            <div class="glass-card">
+                <div class="card-icon"><i data-lucide="code-2" style="width:30px;height:30px;color:white"></i></div>
+                <h3>Mobile Development</h3>
+                <p>Building Flutter apps with clean code and smooth user experiences</p>
+            </div>
+            <!-- <div class="glass-card">
+                <div class="card-icon"><i data-lucide="book-open" style="width:30px;height:30px;color:white"></i></div>
+                <h3>Academic Focus</h3>
+                <p>BSc IT (Cyber Security major) - Started January 2026</p>
+            </div> -->
+            <div class="glass-card">
+                <div class="card-icon"><i data-lucide="lock" style="width:30px;height:30px;color:white"></i></div>
+                <h3>Secure Development</h3>
+                <p>Applying security best practices from day one of development</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+
+    <section id="projects">
+        <div class="section-header">
+            <div class="section-label">Current Work</div>
+            <h2 class="section-title">Learning Projects</h2>
+            <p class="section-description">Hands-on projects I'm working on in security and development</p>
+        </div>
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="defense">Security</button>
+            <button class="tab-btn" data-tab="app">Development</button>
+        </div>
+
+        <div class="tab-content active" data-tab-content="defense">
+            <div class="cards-grid">
+                <div class="glass-card">
+                    <span class="project-badge badge-active">Active</span>
+                    <h3>Security Lab</h3>
+                    <p>Setting up Kali Linux lab with vulnerable VMs for pentesting practice</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-active">Active</span>
+                    <h3>Port Scanner</h3>
+                    <p>Python tool for network reconnaissance</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-active">Active</span>
+                    <h3>IP Lookup</h3>
+                    <p>Script for IP analysis and domain checking</p>
+                </div>
+
+                <div class="glass-card">
+                    <span class="project-badge badge-learning">Learning</span>
+                    <h3>CTF Practice</h3>
+                    <p>Solving challenges on TryHackMe and HackTheBox platforms</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-learning">Learning</span>
+                    <h3>Security+ Study</h3>
+                    <p>Preparing for CompTIA Security+ certification</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-learning">learning</span>
+                    <h3>Network Analysis</h3>
+                    <p>Learning Wireshark and network security monitoring</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tab-content" data-tab-content="app">
+            <div class="cards-grid">
+                <div class="glass-card">
+                    <span class="project-badge badge-active">Active</span>
+                    <h3>Doctor Channeling System</h3>
+                    <p>Java console app for appointment management</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-active">Active</span>
+                    <h3>Student System</h3>
+                    <p>Java app with MySQL for student records</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-learning">Learning</span>
+                    <h3>Flutter UI</h3>
+                    <p>Building components and learning state management</p>
+                </div>
+                <div class="glass-card">
+                    <span class="project-badge badge-learning">Learning</span>
+                    <h3>Mobile Apps</h3>
+                    <p>Cross-platform app prototypes</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+
+    <!-- TIMELINE SECTION -->
+    <section id="timeline">
+        <div class="section-header">
+            <div class="section-label">Progress</div>
+            <h2 class="section-title">My Journey</h2>
+            <p class="section-description">Key milestones since starting my studies</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="graduation-cap" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Jan 2025</div>
+                    <h3>BSc IT Started</h3>
+                    <p>Cyber Security major - Open University of Sri Lanka</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="smartphone" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Aug 2025</div>
+                    <h3>Began Flutter Development</h3>
+                    <p>Started building cross-platform mobile apps alongside security studies</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="network" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Nov 2025</div>
+                    <h3>Security Fundamentals</h3>
+                    <p>Networking basics, Linux commands, Wireshark analysis</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="server" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Dec 2025</div>
+                    <h3>Lab Environment</h3>
+                    <p>Kali Linux + vulnerable VMs (Metasploitable, DVWA)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="code" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Jan 2026</div>
+                    <h3>Portfolio Launch</h3>
+                    <p>Built this site to showcase security & development journey</p>
+                </div>
+            </div>
+
+            <!-- IN FUTURE -->
+            <!-- <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="target" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Mar 2026</div>
+                    <h3>First CTF Success</h3>
+                    <p>Completed first TryHackMe/HackTheBox challenge</p>
+                </div>
+            </div> -->
+
+            <!-- <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="award" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Jun 2026</div>
+                    <h3>Security+ Certified</h3>
+                    <p>CompTIA Security+ certification achieved</p>
+                </div>
+            </div> -->
+
+            <!-- <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="smartphone" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">Aug 2025</div>
+                    <h3>Started Flutter</h3>
+                    <p></p>
+                </div>
+            </div> -->
+
+            <!-- <div class="timeline-item">
+                <div class="timeline-marker">
+                    <i data-lucide="briefcase" style="width:24px;height:24px;color:white"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2027</div>
+                    <h3>First Internship</h3>
+                    <p>Security analyst or mobile development role</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="expertise">
+        <div class="expertise-header">
+            <div class="section-label">Skills</div>
+            <h2 class="section-title">Tools & Technologies</h2>
+            <p class="section-description">What I'm currently learning and using</p>
+        </div>
+        <div class="skills-container tools-grid">
+            <div class="glass-card tool-card">
+                <div class="skill-category">
+                    <h3>
+                        <i data-lucide="shield" class="tool-icon-small"></i>
+                        Security Stack
+                    </h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Kali Linux</span>
+                        <!-- <span class="skill-pill">Wireshark</span> -->
+                        <span class="skill-pill">Nmap</span>
+                        <!-- <span class="skill-pill">Burp Suite</span> -->
+                        <!-- <span class="skill-pill">Metasploit</span> -->
+                        <!-- <span class="skill-pill">OWASP ZAP</span> -->
+                        <span class="skill-pill">Nessus</span>
+                        <span class="skill-pill">Linux CLI</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">Bash</span>
+                        <span class="skill-pill">Networking</span>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card tool-card">
+                <div class="skill-category">
+                    <h3>
+                        <i data-lucide="code-2" class="tool-icon-small"></i>
+                        Development Stack
+                    </h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Flutter</span>
+                        <span class="skill-pill">Dart</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">Django/Flask</span>
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">HTML/CSS</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">Firebase</span>
+                        <span class="skill-pill">REST APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-description">Open to discussions about security, development, or opportunities</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/ShehanSulakshana" target="_blank" class="social-link" title="GitHub">
+                <i data-lucide="github" style="width:24px;height:24px"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shehan-sulakshana-129758342" target="_blank" class="social-link"
+                title="LinkedIn">
+                <i data-lucide="linkedin" style="width:24px;height:24px"></i>
+            </a>
+            <a href="https://www.facebook.com/shehan.sulakshana.01" target="_blank" class="social-link"
+                title="Facebook">
+                <i data-lucide="facebook" style="width:24px;height:24px"></i>
+            </a>
+            <a href="https://wa.me/+94713143118" target="_blank" class="social-link" title="WhatsApp">
+                <i data-lucide="message-circle" style="width:24px;height:24px"></i>
+            </a>
+        </div>
+        <a href="https://mail.google.com/mail/?view=cm&to=shehansulakshana01@gmail.com&su=Hello+Shehan"
+            class="btn btn-primary" target="_blank"
+            style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px; position: relative; z-index: 100;">
+            <i data-lucide="mail" style="width:18px;height:18px; pointer-events: none;"></i>
+            Get In Touch
+
+
+        </a>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Shehan Sulakshana</p>
+        <!-- <p style="margin-top:1rem;font-size:0.9rem">Built with ❤️ , by Shehan</p> -->
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>

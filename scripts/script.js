@@ -1,6 +1,6 @@
     lucide.createIcons();
 
-    //Mobile menu
+    //Mobile nav
     const mobileToggle = document.getElementById('mobileToggle');
     const navLinks = document.getElementById('navLinks');
     let isMenuOpen = false;
@@ -38,7 +38,7 @@
         lucide.createIcons();
     };
 
-    //Main sections 
+    //Main sections
     const sectionObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {

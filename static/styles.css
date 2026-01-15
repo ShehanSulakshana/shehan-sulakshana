@@ -737,6 +737,18 @@ section.visible {
     border-color: var(--accent-purple);
 }
 
+.timeline-date {
+    color: #A8B8D8;
+    /* Muted blue-gray for dates */
+    font-weight: 500;
+}
+
+.timeline-content h3 {
+    color: #F5F7FA;
+    /* Bold near-white for headings */
+    margin: 0 0 0.5rem;
+}
+
 /* MOBILE TIMELINE */
 @media (max-width: 768px) {
     .timeline-line {
